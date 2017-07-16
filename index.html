@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Thinkful Tube Challenge - YouTube API exercise</title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="lightbox.css" rel="stylesheet" type="text/css">
+  </head>
+  <body class="container">
+    <main>
+        <div class="jumbotron text-center">
+            <h1>Search YouTube </h1>
+        </div>
+        <div class="centered d-block" id ="formContainer">
+        <form action="#" id="userSearchTerm">
+            <label for="query"></label>
+            <input type="text" id="query" name="search" placeholder="Search Videos">
+            <button type="submit">Search </button>
+        </form>
+        </div>
+        <h2 class="centered"> Results </h2>
+        <div id="resultsContainer">
+        </div>
+        </main>
+    <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+    <script type="text/javascript" src="lightbox.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
