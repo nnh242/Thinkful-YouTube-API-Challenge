@@ -15,9 +15,10 @@ input[type=text]:focus {
 
 #formContainer{
     padding: 2em;
-    margin-bottom: 3em;
+    margin-bottom: 5em;
 }
 
 #video{
     padding: 2em;
 }
+
