@@ -22,7 +22,7 @@ function displayResults(resultObject) {
     $('#resultsContainer').append(
         `<div class="row">
             <div class=".col-xs-6" id="video">
-                <a href='https://www.youtube.com/watch?v=${items[i].id.videoId}'><img src="${items[i].snippet.thumbnails.high.url}"></a>
+                <a href='https://www.youtube.com/watch?v=${items[i].id.videoId}?autoplay=1' data-lightbox="https://www.youtube.com/watch?v=${items[i].id.videoId}?autoplay=1" rel="lightframe"><img src="${items[i].snippet.thumbnails.high.url}"></a>
             </div>
             <div class=".col-xs-6">
                 <div class=".col-xs-6"><span>${items[i].snippet.title}</span></div>
