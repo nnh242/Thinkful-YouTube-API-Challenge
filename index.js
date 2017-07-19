@@ -20,13 +20,13 @@ function displayResults(resultObject) {
     console.log(items);
     for (let i=0; i<items.length; i++){
     $('#resultsContainer').append(
-        `<div class="row">
-            <div class=".col-xs-6" id="video">
+        `<div class="centered">
+            <div class="centered" id="video">
                 <a href='https://www.youtube.com/watch?v=${items[i].id.videoId}?autoplay=1' data-lightbox="https://www.youtube.com/watch?v=${items[i].id.videoId}?autoplay=1" rel="lightframe"><img src="${items[i].snippet.thumbnails.high.url}"></a>
             </div>
-            <div class=".col-xs-6">
-                <div class=".col-xs-6"><span>${items[i].snippet.title}</span></div>
-                <div class=".col-xs-6"><span>${items[i].snippet.channelTitle}</span></div>
+            <div class="centered">
+                <div class="centered"><h4>${items[i].snippet.title}</h4></div>
+                <div class="centered><span>${items[i].snippet.channelTitle}</span></div>
             </div>
         </div>
         `);
